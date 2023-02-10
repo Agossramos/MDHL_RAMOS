@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+    margin:50px 10%;
+}
+
+
+header{
+    width: 80vw;
+    height: 35vh;
+    margin:20px 10%;
+    background-image: url(../imagenes/design1_image1.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+    padding: .5rem;
+}
+
+nav{
+    border-color: blue;
+
+}
+
+nav:hover{
+    background-color: green;
+}
+
+
+.logo{
+    margin:50px 10%;
+    height:200px;
+}
+
+.fechas{
+    display:inline-block;
+    margin: -5rem;
+}
+
+.imagen{
+    display:inline-block;
+    height: 200px;
+    margin: 50px;    
+}
