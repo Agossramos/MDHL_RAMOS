@@ -6,6 +6,7 @@
 
 h1{
     margin:50px 10%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -20,14 +21,29 @@ header{
 }
 
 nav{
-    border-color: blue;
+    background-color: write;
+}
+
+a{
+    display: inline;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    padding:5px;
+    text-decoration: none;
 
 }
 
-nav:hover{
+a:hover{
     background-color: green;
 }
 
+.titulo{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin:50px 10%;
+} 
 
 .logo{
     margin:50px 10%;
