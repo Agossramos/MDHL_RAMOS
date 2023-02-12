@@ -22,9 +22,10 @@ header{
 
 nav{
     background-color: write;
+    text-align: right;
 }
 
-a{
+.navegador{
     display: inline;
     border: 2px solid blue;
     background-color: blue;
@@ -53,6 +54,10 @@ a:hover{
 .fechas{
     display:inline-block;
     margin: -5rem;
+}
+
+.textabout{
+    display:inline-block;
 }
 
 .imagen{
