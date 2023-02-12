@@ -5,15 +5,16 @@
 }
 
 h1{
-    margin:50px 10%;
+    margin:50px 10% -20px 10%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:6vh;
 }
 
 
 header{
     width: 80vw;
     height: 35vh;
-    margin:20px 10%;
+    margin:20px 10%; 
     background-image: url(../imagenes/design1_image1.jpg);
     background-size: cover;
     background-position: 0 40%;
@@ -22,6 +23,8 @@ header{
 
 nav{
     background-color: write;
+    position: absolute;
+    top:14%;left:74%;
     text-align: right;
 }
 
@@ -32,18 +35,21 @@ nav{
     color: white;
     padding:5px;
     text-decoration: none;
+    
 
 }
 
-a:hover{
+a[href="#"]{
     background-color: green;
+    color: aliceblue;
 }
 
 .titulo{
     background-color: white;
     text-align: center;
     border: 2px solid black;
-    margin:50px 10%;
+    margin:-20px 10% 50px 10%;
+    font-size:4vh;
 } 
 
 .logo{
@@ -51,17 +57,25 @@ a:hover{
     height:200px;
 }
 
-.fechas{
+
+.txts{
     display:inline-block;
-    margin: -5rem;
+    width: 30%;
+
 }
 
-.textabout{
+/* .textabout{
     display:inline-block;
-}
+    width: 30%;    
+} */
 
 .imagen{
     display:inline-block;
     height: 200px;
     margin: 50px;    
 }
+
+/* .textcontact{
+    display:inline-block;
+    width: 30%;
+} */
