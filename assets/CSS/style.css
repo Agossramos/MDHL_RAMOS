@@ -61,6 +61,7 @@ a[href="#"]{
 .txts{
     display:inline-block;
     width: 30%;
+    vertical-align:top;
 
 }
 
