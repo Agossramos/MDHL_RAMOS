@@ -9,8 +9,6 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:6vh;
 }
-
-
 header{
     width: 80vw;
     height: 35vh;
@@ -24,7 +22,7 @@ header{
 nav{
     background-color: write;
     position: absolute;
-    top:14%;left:74%;
+    top:14%;left:65%;
     text-align: right;
 }
 
@@ -40,8 +38,8 @@ nav{
 }
 
 a[href="#"]{
-    background-color: green;
-    color: aliceblue;
+    background-color: rgb(45, 212, 190);
+    color: rgb(0, 0, 0);
 }
 
 .titulo{
@@ -77,7 +75,11 @@ a[href="#"]{
 .txtsp{
     display: inline-block;
 }
-
+.infocontact{
+    gap: .5rem;
+    padding: 1rem;
+    text-align: center;
+}
 .imagen{
     display:inline-block;
     height: 200px;
@@ -127,9 +129,28 @@ table{
     table-layout:auto;
     border-collapse: separate;
 }
+#listas{
+    margin:20px 10%;
+    
+}
+#listaenlista{
+    text-indent: 20px;
+}
+.dividir{
+    gap: .5rem;
+    padding: .3rem;
+}
+
+/* ul>li{
+    list-style-image: url(../imagenes/hockey-stick-icon-logo-free-vector.ico);   
+} */
+
 #listas>div li{
     list-style-position: inside;
 }
+/* .dts{
+    font-weight:bold;
+} */
 
 footer{
     min-height: 5vh;
