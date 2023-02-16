@@ -39,6 +39,9 @@ a[href="#"]{
     background-color: rgb(45, 212, 190);
     color: rgb(0, 0, 0);
 }
+main{
+    min-height: 200px;
+}
 /*TITULO RECUADRO*/
 .titulo{
     background-color: white;
@@ -142,6 +145,12 @@ table{
 }
 #listas>div li{
     list-style-position: inside;
+}
+/*REGISTRATION*/
+form{
+    margin:20px 10%; 
+    display: block;
+
 }
 /*FOOTER*/
 footer{
