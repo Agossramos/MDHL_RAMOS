@@ -22,7 +22,7 @@ header{
 nav{
     background-color: write;
     position: absolute;
-    top:14%;left:65%;
+    top:14%;left:58%;
     text-align: right;
 }
 .navegador{
@@ -36,11 +36,13 @@ nav{
 
 }
 a[href="#"]{
-    background-color: rgb(45, 212, 190);
-    color: rgb(0, 0, 0);
+    background-color: rgb(223, 93, 93);
+    color: rgb(253, 248, 248);
 }
 main{
+    margin:5px 10%;
     min-height: 200px;
+    background-color: rgb(253, 212, 212);
 }
 /*TITULO RECUADRO*/
 .titulo{
@@ -53,6 +55,7 @@ main{
 /*MAIN PAGINA INDEX, ABOUT Y CONTACT*/
 .conteiner{
     margin:5px 10%;
+    min-height: 200px;
     display:flex;
     justify-content: space-around;
     align-content: space-between;
@@ -131,6 +134,13 @@ table{
     table-layout:auto;
     border-collapse: separate;
 }
+.location{
+    margin:10px 10%;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
 /*LISTA PAGINA RULES*/
 #listas{
     margin:20px 10%;
@@ -152,11 +162,28 @@ form{
     display: block;
 
 }
+fieldset{
+    margin:10px 2%;
+    border:none;
+}
+.titlefielset{
+    font-size:large;
+}
+#submit{
+    width:100px; 
+    height:30px;
+    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*FOOTER*/
 footer{
     min-height: 5vh;
-    background-color: #78eede;
-    color: #000000;
+    background-color: blue;
+    color: #ffffff;
     text-align: center;
     display: flex;
     justify-content: center;
