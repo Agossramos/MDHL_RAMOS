@@ -163,6 +163,9 @@ fieldset{
     margin:10px 2%;
     border:none;
 }
+fieldset>p{
+    display: inline;
+}
 .titlefielset{
     font-size:large;
 }
