@@ -169,16 +169,6 @@ fieldset>p{
 .titlefielset{
     font-size:large;
 }
-#submit{
-    width:100px; 
-    height:30px;
-    
-}
-.submit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /*FOOTER*/
 footer{
     min-height: 5vh;
